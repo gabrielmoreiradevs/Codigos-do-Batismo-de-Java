@@ -18,11 +18,12 @@ O **Batismo de Java do Fiasco** é um curso introdutório focado em ensinar os f
 
 A organização dos arquivos segue a ordem das aulas do curso
 
+```bash
 📁 batismo-java/
 ├── TiposDeDados/
 ├── desafios/
 └── README.md
-
+```
 
 > **Nota:** Os nomes das pastas podem mudar de acordo com o progresso e a necessidade.
 
