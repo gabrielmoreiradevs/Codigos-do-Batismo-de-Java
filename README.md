@@ -49,6 +49,10 @@ java Main
 ## 📌 Objetivo
 Esse repositório serve como diário de bordo da minha jornada no mundo Java. É um espaço para praticar, errar, corrigir e evoluir.
 
+## 📌 Notion para Estudos
+https://honored-cart-e67.notion.site/Java-1c5d88444db380b58e24c36b0d91bc24
+### Feito por: https://github.com/mauricioandrade
+
 ## 📬 Contato
 Se quiser trocar uma ideia, dar sugestões ou relatar problemas:
 
