@@ -20,9 +20,10 @@ A organização dos arquivos segue a ordem das aulas do curso
 
 ```bash
 📁 batismo-java/
+├── src/Array/
 ├── src/TiposDeDados/
 ├── src/Condicionais/
-├── desafios/
+├── src/desafios/
 └── README.md
 ```
 
