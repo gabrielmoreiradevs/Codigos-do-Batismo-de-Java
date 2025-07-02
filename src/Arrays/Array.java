@@ -12,6 +12,10 @@ public class Array {
         ninja[1] = "Sasuke";
         ninja[2] = "Sakura";
         ninja[3] = "Hinata";
+        ninja[4] = "Kakashi";
+
+        //Redeclarando array
+        ninja[4] = "Boruto";
 
         /*System.out.println(ninja[1]); //Sasuke
         System.out.println(ninja); //Referencia da Memoria*/
