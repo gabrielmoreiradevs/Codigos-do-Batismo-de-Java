@@ -1,5 +1,4 @@
-package Desafios;
-import javax.naming.BinaryRefAddr;
+package NivelFacil.Desafios;
 import java.util.Scanner;
 
 public class Desafio2 {

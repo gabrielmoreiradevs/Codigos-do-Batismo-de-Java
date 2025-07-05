@@ -1,4 +1,4 @@
-package Arrays;
+package NivelFacil.Arrays;
 
 public class Array {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class Array {
         //Tipo[] nomeDaVariavel = new Tipo[qtdElementos]
         //Tipo[] nomeDaVariavel = {Conteudo};
 
-        // Arrays são do tipo de Referencia
+        // NivelFacil.Arrays são do tipo de Referencia
         String[] ninja= new String[5];
         ninja[0] = "Naruto";
         ninja[1] = "Sasuke";

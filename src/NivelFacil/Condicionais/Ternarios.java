@@ -1,5 +1,4 @@
-package Condicionais;
-import java.util.Scanner;
+package NivelFacil.Condicionais;
 
 public class Ternarios {
     public static void main(String[] args) {

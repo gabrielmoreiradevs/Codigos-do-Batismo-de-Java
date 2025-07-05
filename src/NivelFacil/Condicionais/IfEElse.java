@@ -1,8 +1,8 @@
-package Condicionais;
+package NivelFacil.Condicionais;
 
 public class IfEElse {
     public static void main(String[] args) {
-        /*Trabalhando com If, Else e Else If | Condicionais
+        /*Trabalhando com If, Else e Else If | NivelFacil.Condicionais
         *
         * Passar o ninja de nivel pelas missoes
         *
