@@ -24,6 +24,8 @@ A organização dos arquivos segue a ordem das aulas do curso
 ├── src/NivelFacil/TiposDeDados/
 ├── src/NivelFacil/Condicionais/
 ├── src/NivelFacil/desafios/
+├── src/NivelIntermediario/
+├── src/Desafios/
 └── README.md
 ```
 
