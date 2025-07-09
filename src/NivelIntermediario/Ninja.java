@@ -7,9 +7,4 @@ public class Ninja {
     String aldeia;
     int idade;
 
-    //Criando metodo publico, personalizado (SEM RETORNO/VOID)
-    public void ShariganAtivado (){
-        System.out.println(nome + " ativou o Sharigan");
-    }
-
 }

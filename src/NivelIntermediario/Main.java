@@ -3,31 +3,36 @@ package NivelIntermediario;
 public class Main {
     public static void main(String[] args) {
         // Criar o ninja naruto - 0bjeto
-        Ninja Naruto = new Ninja();
+        Uzumaki Naruto = new Uzumaki();
 
         Naruto.nome = "Naruto Uzumaki";
         Naruto.idade = 15;
         Naruto.aldeia = "Aldeia da Folha";
 
+        //Herança, Ninja
+        Naruto.ModoSabioAtivar();
+
         // Criar ninja Sasuke Uchiha - Objeto
-         Ninja Sasuke = new Ninja();
+         Uchiha Sasuke = new Uchiha();
 
          Sasuke.nome = "Sasuke Uchiha";
          Sasuke.idade = 17;
          Sasuke.aldeia = "Aldeia da Folha";
 
-         //Metodo Void
+         //Herança, Ninja
         Sasuke.ShariganAtivado();
 
-        Ninja Sakura = new Ninja();
+        Haruno Sakura = new Haruno();
         Sakura.nome = "Sakura Haruno";
         Sakura.idade = 18;
         Sakura.aldeia = "Aldeia da Folha";
+        Sakura.AtivarCura();
 
-        Ninja Hinata = new Ninja();
+        Haruno Hinata = new Haruno();
         Hinata.nome = "Hinata Haruno";
         Hinata.idade = 16;
         Hinata.aldeia = "Aldeia da Folha";
+        Hinata.AtivarCura();
 
     }
 }
