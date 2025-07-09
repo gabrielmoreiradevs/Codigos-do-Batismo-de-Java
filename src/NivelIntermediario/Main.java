@@ -28,11 +28,11 @@ public class Main {
         Sakura.aldeia = "Aldeia da Folha";
         Sakura.AtivarCura();
 
-        Haruno Hinata = new Haruno();
+        Hyuuga Hinata = new Hyuuga();
         Hinata.nome = "Hinata Haruno";
         Hinata.idade = 16;
         Hinata.aldeia = "Aldeia da Folha";
-        Hinata.AtivarCura();
+        Hinata.UsarByakugan();
 
     }
 }
