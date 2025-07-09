@@ -19,14 +19,15 @@ public class Main {
          //Metodo Void
         Sasuke.ShariganAtivado();
 
-         //Aplicando Metodo String
-        String boasVindas = Sasuke.boasVindas();
-        System.out.println(boasVindas);
+        Ninja Sakura - new Ninja();
+        Sakura.nome = "Sakura Haruno";
+        Sakura.idade = 18;
+        Sakura.aldeia = "Aldeia da Folha";
 
-
-        //Aplicando Metodo Int (Com Parametro)
-        int idade = Sasuke.anosParaHokage(50);
-        System.out.println("Ainda falta "+idade+" anos para se tornar Hokage");
+        Ninja Hinata - new Ninja();
+        Hinata.nome = "Hinata Haruno";
+        Hinata.idade = 16;
+        Hinata.aldeia = "Aldeia da Folha";
 
     }
 }
