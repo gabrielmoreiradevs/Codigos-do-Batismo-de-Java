@@ -19,12 +19,12 @@ public class Main {
          //Metodo Void
         Sasuke.ShariganAtivado();
 
-        Ninja Sakura - new Ninja();
+        Ninja Sakura = new Ninja();
         Sakura.nome = "Sakura Haruno";
         Sakura.idade = 18;
         Sakura.aldeia = "Aldeia da Folha";
 
-        Ninja Hinata - new Ninja();
+        Ninja Hinata = new Ninja();
         Hinata.nome = "Hinata Haruno";
         Hinata.idade = 16;
         Hinata.aldeia = "Aldeia da Folha";
