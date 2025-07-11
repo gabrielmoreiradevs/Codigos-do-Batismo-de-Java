@@ -34,5 +34,6 @@ public class Main {
         Hinata.aldeia = "Aldeia da Folha";
         Hinata.UsarByakugan();
 
+
     }
 }
