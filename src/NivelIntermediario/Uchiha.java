@@ -6,4 +6,9 @@ public class Uchiha extends Ninja {
         System.out.println(nome + " ativou o Sharigan");
     }
 
+    @Override
+    public void HabilidadeEspecial(){
+        System.out.println("Meu nome é "+nome+" e esse é meu ataque Uchiha, um ataque de fogo");
+    }
+
 }
