@@ -11,8 +11,5 @@ public class Main {
         Hokages Minato =new Hokages("Minato Namikaze", 32, false);
 
 
-        Hokages Tsunade = new
-
-
     }
 }
