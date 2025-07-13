@@ -1,6 +1,6 @@
 package NivelIntermediario2;
 
-public class Hokages {
+public abstract class Hokages {
     String nome;
     int idade;
     boolean vivoOuNao;
@@ -9,16 +9,11 @@ public class Hokages {
     double saldoBancario;
     double altura;
 
+    public abstract void sabedoriaHokage();
+
 
     public Hokages(){
         //Construtor Vazio, noArgs
-    }
-
-    // Criar um construtor com argumento, allArgs
-    public Hokages(String nome, int idade, boolean vivoOuNao){
-        this.nome = nome;
-        this.idade = idade;
-        this.vivoOuNao = vivoOuNao;
     }
 
     // Criar um construtor com argumento, allArgs (Automatico IntelliJ)
