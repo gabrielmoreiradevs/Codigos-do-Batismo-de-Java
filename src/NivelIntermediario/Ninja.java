@@ -42,9 +42,24 @@ public abstract class Ninja implements Estrategia {
     }
 
     //Sobre escrevendo o metodo da interface
-    @Override
     public void estrategiaDeBatalhaNinja() {
         System.out.println(nome + " Essa é minha estrategia de combate basica");
+    }
+
+    //Inteligncia de combate
+    public void inteligenciaDeCombate() {
+        System.out.println(nome + " Essa é minha inteligencia de combate");
+    }
+
+    //Sobrecarga de Metodo - Inteligncia de combate
+    public void inteligenciaDeCombate(int QI) {
+
+        if(QI>150){
+            System.out.println("Seu QI é "+QI+" e você é um genio");
+        }else if(QI<=150){
+            System.out.println("Treine seu QI: "+QI);
+        }
+
     }
 
 }

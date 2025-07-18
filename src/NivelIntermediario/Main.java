@@ -8,6 +8,7 @@ public class Main {
         //Polimorfismo
         Naruto.HabilidadeEspecial();
         Naruto.estrategiaDeBatalhaNinja();
+        Naruto.inteligenciaDeCombate();
 
         // Criar ninja Sasuke Uchiha - Objeto
          Uchiha Sasuke = new Uchiha("Sasuke","Aldeia da Folha",17, 436,NivelNinja.CHUUNIN);
@@ -15,11 +16,13 @@ public class Main {
          //Polimorfismo"
         Sasuke.HabilidadeEspecial();
         Sasuke.estrategiaDeBatalhaNinja();
+        Sasuke.inteligenciaDeCombate(149);
 
         //Testando Sobrecarga
         Uchiha madara = new Uchiha("Madara","Aldeia da Folha",17, 879, NivelNinja.KAGE);
         madara.HabilidadeEspecial();
         madara.estrategiaDeBatalhaNinja();
+        madara.inteligenciaDeCombate(151);
 
     }
 }
