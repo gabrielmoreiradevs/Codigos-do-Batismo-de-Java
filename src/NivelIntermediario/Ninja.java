@@ -62,4 +62,9 @@ public abstract class Ninja implements Estrategia {
 
     }
 
+
+    @Override
+    public String toString() {
+        return "Meu nome é "+ nome + " eu sou da "+aldeia+ " e tenho "+idade;
+    }
 }
