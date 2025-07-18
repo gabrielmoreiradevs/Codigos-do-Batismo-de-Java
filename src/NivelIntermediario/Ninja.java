@@ -11,6 +11,7 @@ public abstract class Ninja implements Estrategia {
     int idade;
     int numeroDeMissoesConcluidas;
     NivelNinja rank;
+    boolean vivo;
 
 
     public Ninja() {
@@ -28,6 +29,11 @@ public abstract class Ninja implements Estrategia {
         this(nome, aldeia, idade);
         this.numeroDeMissoesConcluidas = numeroDeMissoesConcluidas;
         this.rank = rank;
+    }
+
+    public Ninja(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank, boolean vivo) {
+        this(nome,aldeia,idade,numeroDeMissoesConcluidas,rank);
+        this.vivo = vivo;
     }
 
     // Metodo Geral! Todos os Ninjas Tem

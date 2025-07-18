@@ -15,6 +15,10 @@ public class Uchiha extends Ninja {
         super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
     }
 
+    public Uchiha(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank, boolean vivo) {
+        super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank, vivo);
+    }
+
     //SobreEscrever da classe ninja
     @Override
     public void HabilidadeEspecial(){

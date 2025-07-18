@@ -3,7 +3,7 @@ package NivelIntermediario;
 public class Main {
     public static void main(String[] args) {
         // Criar o ninja naruto - 0bjeto
-        Uzumaki Naruto = new Uzumaki("Naruto","Aldeia da Folha",15);
+        Uzumaki Naruto = new Uzumaki("Naruto","Aldeia da Folha",15,65,NivelNinja.GENIN,true);
 
         //Polimorfismo
         Naruto.HabilidadeEspecial();
