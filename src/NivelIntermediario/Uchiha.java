@@ -10,10 +10,15 @@ public class Uchiha extends Ninja {
         super(nome, aldeia, idade);
     }
 
+    //TODO: Sobrecarga de Construtores
+    public Uchiha(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
+        super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
+    }
+
     //SobreEscrever da classe ninja
     @Override
     public void HabilidadeEspecial(){
-        System.out.println("Meu nome é "+nome+" e esse é meu ataque Uchiha, um ataque de fogo");
+        System.out.println("Meu nome é "+nome+" e esse é meu ataque Uchiha, um ataque de fogo. Eu ja completei: "+ numeroDeMissoesConcluidas);
     }
 
     @Override

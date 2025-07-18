@@ -9,6 +9,11 @@ public class Uzumaki extends Ninja{
         super(nome, aldeia, idade);
     }
 
+    //TODO: Sobrecarga de Construtores
+    public Uzumaki(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
+        super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
+    }
+
     // SobreEscrever da classe ninja
     @Override
     public void HabilidadeEspecial(){
