@@ -53,13 +53,15 @@ public abstract class Ninja implements Estrategia {
 
     //Sobrecarga de Metodo - Inteligncia de combate
     public void inteligenciaDeCombate(int QI) {
-
         if(QI>150){
             System.out.println("Seu QI é "+QI+" e você é um genio");
         }else if(QI<=150){
             System.out.println("Treine seu QI: "+QI);
         }
+    }
 
+    final void tacarKunai(){
+        System.out.println("Tacando Kunai! (METODO FINAL)");
     }
 
 

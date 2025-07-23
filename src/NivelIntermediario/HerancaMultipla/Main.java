@@ -11,5 +11,9 @@ public class Main {
         kakashi.shariganAtivado();
         kakashi.ninjaDeElite();
 
+        Anbu anbu = new Anbu();
+        anbu.nome = "Ninja Anbu";
+        anbu.anbu();
+
     }
 }
