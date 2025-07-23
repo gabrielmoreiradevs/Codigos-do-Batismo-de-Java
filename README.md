@@ -25,8 +25,8 @@ A organização dos arquivos segue a ordem das aulas do curso
 ├── src/NivelFacil/Condicionais/
 ├── src/NivelFacil/desafios/
 ├── src/NivelIntermediario/
-├── src/NivelIntermediario/HerancaMultipla
-├── src/NivelIntermediario/Encapsulamento
+├── src/NivelIntermediario/HerancaMultipla/
+├── src/NivelIntermediario/Encapsulamento/
 ├── src/NivelIntermediario2/
 ├── src/Desafios/
 ├── src/DesafiosDoCurso/

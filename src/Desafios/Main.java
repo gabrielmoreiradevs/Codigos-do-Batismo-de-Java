@@ -3,22 +3,19 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        Personagem personagem = new Personagem();
+        NinjaGenin ninjaGenin = new NinjaGenin("Ninja Genin", Vila.FOLHA, 4);
+        NinjaJounin ninjaJounin = new NinjaJounin("Ninja Jounin", Vila.AREIA, 13);
+        NinjaChunin ninjaChunin = new NinjaChunin("Ninja Chunin", Vila.NÉVOA, 67);
 
-        System.out.println("Insira os dados do seu Personagem\n");
+        ninjaGenin.executarMissao();
+        ninjaChunin.executarMissao();
+        ninjaJounin.executarMissao();
+        System.out.println("------------------------------------------");
+        ninjaGenin.treinar();
+        ninjaChunin.treinar();
+        System.out.println("------------------------------------------");
+        System.out.println(ninjaGenin);
+        System.out.println(ninjaChunin);
 
-        System.out.println("Nome: ");
-        personagem.nome = input.nextLine();
-
-        System.out.println("Classe: ");
-        personagem.Classe = input.nextLine();
-
-        System.out.println("Nivel: ");
-        personagem.Nivel = input.nextInt();
-        input.nextLine();
-
-        personagem.infos();
-        input.close();
     }
 }
