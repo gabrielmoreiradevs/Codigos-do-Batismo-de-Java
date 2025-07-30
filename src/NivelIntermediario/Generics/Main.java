@@ -2,17 +2,16 @@ package NivelIntermediario.Generics;
 
 public class Main {
     public static void main(String[] args) {
+        Pergaminho pergaminho1 = new Pergaminho("Pergaminho do Naruto");
+        Shuriken shuriken1 = new Shuriken(12);
+        BolsaNinja<Object> bolsa = new BolsaNinja<>();
 
-        Equipamentos faca = new Equipamentos("Faca");
-        Equipamentos moeda = new Equipamentos("Moeda");
-
-        Bolsa<Equipamentos> bolsa = new Bolsa<>();
-
-        System.out.println(bolsa);
-        bolsa.adcionarItem(faca);
-        System.out.println(bolsa);
-        bolsa.adcionarItem(moeda);
-        System.out.println(bolsa);
+        bolsa.mostrarItensDaBolsa();
+        bolsa.adicionarItemABolsa(new Kunai("Kunai de Fogo"));
+        bolsa.adicionarItemABolsa(shuriken1);
+        bolsa.mostrarItensDaBolsa();
+        bolsa.adicionarItemABolsa(pergaminho1);
+        bolsa.mostrarItensDaBolsa();
 
     }
 }

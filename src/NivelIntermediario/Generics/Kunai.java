@@ -1,9 +1,9 @@
 package NivelIntermediario.Generics;
 
-public class Equipamentos {
+public class Kunai {
     private String nome;
 
-    public Equipamentos(String nome) {
+    public Kunai(String nome) {
         this.nome = nome;
     }
 
@@ -11,12 +11,8 @@ public class Equipamentos {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
     @Override
     public String toString() {
-        return nome;
+        return "Kunai: " + nome;
     }
 }
