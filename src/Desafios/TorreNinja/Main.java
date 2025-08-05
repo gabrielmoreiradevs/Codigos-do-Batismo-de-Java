@@ -5,6 +5,7 @@ public class Main {
         //Desafio criado pelo ChatGPT
 
         NinjaGenin ninjaGenin = new NinjaGenin("Naruto", "Aldeia da Folha", 2);
+
         Missao missao1 = new Missao("Ajudar o Hokage", 2);
         Missao missao2 = new Missao("Matar Inimigo", 5);
         Missao missao3 = new Missao("Ajudar um Gato", 1);
@@ -19,10 +20,6 @@ public class Main {
         ninjaGenin.executarMissao(missao3);
         System.out.println(ninjaGenin.mostrarMissoes());
         ninjaGenin.executarMissao(missao3);
-
-
-
-
 
     }
 }

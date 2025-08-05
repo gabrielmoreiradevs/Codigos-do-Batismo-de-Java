@@ -15,6 +15,7 @@ public class NinjaGenin extends Ninja{
     
     @Override
     public void executarMissao(Missao missao) {
+
         boolean jaExiste = false;
         for (Missao m : MissaoPendentes) {
             if (m.descricao().equals(missao.descricao())) {
@@ -37,6 +38,7 @@ public class NinjaGenin extends Ninja{
 
     @Override
     public void adicionarMissao(Missao addMissao) {
+
         boolean jaExiste = false;
         for (Missao m : MissaoPendentes) {
             if (m.descricao().equals(addMissao.descricao())) {
@@ -44,6 +46,7 @@ public class NinjaGenin extends Ninja{
                 break;
             }
         }
+
         if (jaExiste) {
             System.out.println("O ninja ja tem essa missao");
         } else {
